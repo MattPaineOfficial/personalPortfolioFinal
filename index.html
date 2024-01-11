@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt Paine | Portfolio</title>
+    <script src="https://kit.fontawesome.com/ff30abaf54.js" crossorigin="anonymous"></script>
+    <link href="./style.css" rel="stylesheet">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body class="dark-mode">
+    <nav>
+        <h1>Matt Paine</h1>
+        <ul class="nav-items">
+            <li><button onclick="myFunction()" id="dark-btn">Dark Mode On/Off</i></button></li>
+            <li class="nav-item"><a href="#about-me">About</a></li>
+            <li class="nav-item"><a href="#projects">Projects</a></li>
+            <li class="nav-item"><a href="#skills">Skills</a></li>
+            <li class="nav-item"><a href='./contact.html'>Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <div id="about-text">
+                <h2>- About -</h2>
+                <p><strong>Hi!</strong> I'm Matt, currently following the Full-Stack Career Path by CodeCademy.</p>
+            </div>
+            <img src="./resources/profilePic.jpg" alt="A photo of Matt Paine" id="profile-img">
+        </section>
+
+        <section id="projects">
+            <h2>- Projects -</h2>
+            <details class="project-item">
+                <summary class="project-title">Short Story Generator</summary>
+
+                <p class="project-description">This is my solution to the Mixed Messages Portfolio Project, from CodeCademy. It uses five arrays of options and randomly picks one from each to make the final story.</p>
+                <img src="./resources/shortStoryGen.png" alt="An image of my short story generator" class="project-image"/>
+            </details>
+
+            <details class="project-item">
+                <summary class="project-title">Natural Spring Water</summary>
+
+                <p class="project-description">This a one page website for NATURAL (a fake brand of spring water). It features CSS that responsively scales the site to fit smaller screen sizes.</p>
+                <img src="./resources/naturalWater_2.png" alt="An image of the NATURAL website, as viewed on a mobile device" class="project-image"/>
+            </details>
+
+            <details class="project-item">
+                <summary class="project-title">Simple Calculator</summary>
+
+                <p class="project-description">This is my simple HTML Calculator, it allowed me to learn the begins of CSS & JavaScript.</p>
+                    <img src="./resources/htmlCalc.png" alt="An image my HTML Calculator" class="project-image"/>
+            </details>
+        </section>
+
+        <section id="skills">
+            <h2>- Skills -</h2>
+            <div class="skills-icons">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-git"></i>
+                <i class="fab fa-github"></i>
+                <i class="fas fa-terminal"></i>
+                <i class="fab fa-node"></i>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
